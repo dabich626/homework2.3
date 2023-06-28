@@ -1,4 +1,4 @@
-public class ServiceStation {
+public class ServiceStation extends Car implements Bicycle {
 
     public void check(Car car, Bicycle bicycle, Truck truck) {
         if (car != null) {
