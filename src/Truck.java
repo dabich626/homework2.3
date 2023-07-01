@@ -15,7 +15,7 @@ public class Truck extends MotorTransport {
         super.sercvice();
     }
 
-    public void checkTrailer(){
+    public void checkTrailer() {
         super.checkTrailer();
     }
 }

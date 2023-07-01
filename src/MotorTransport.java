@@ -10,7 +10,7 @@ public abstract class MotorTransport extends WheelsTransport {
         checkEngine();
     }
 
-     public void checkEngine()  {
+    public void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
 

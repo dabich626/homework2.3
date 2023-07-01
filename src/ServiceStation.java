@@ -1,4 +1,4 @@
-public class ServiceStation  implements Transport {
+public class ServiceStation implements Transport {
 
     public void service(Car car, Bicycle bicycle, Truck truck) {
         if (car != null) {
