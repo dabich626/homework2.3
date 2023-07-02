@@ -1,17 +1,22 @@
-public class Truck {
+public class Truck extends MotorTransport {
 
-    public String modelName;
-    public int wheelsCount;
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
+    public Truck(String modelName, int wheelsCount) {
+        super(modelName, wheelsCount);
     }
 
+    @Override
     public void checkEngine() {
-        System.out.println("Проверяем двигатель");
+        super.checkEngine();
+    }
+
+    @Override
+    public void sercvice() {
+        super.sercvice();
     }
 
     public void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }
 }
+
