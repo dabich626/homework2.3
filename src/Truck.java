@@ -16,7 +16,7 @@ public class Truck extends MotorTransport {
     }
 
     public void checkTrailer() {
-        super.checkTrailer();
+        System.out.println("Проверяем прицеп");
     }
 }
 

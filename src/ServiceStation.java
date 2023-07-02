@@ -22,8 +22,9 @@ public class ServiceStation implements Transport {
         }
     }
 
-    @Override
-    public void sercvice() {
 
+    public void service(Transport) {
+
+        service();
     }
 }
